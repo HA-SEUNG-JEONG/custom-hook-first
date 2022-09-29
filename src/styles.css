@@ -1,0 +1,69 @@
+body {
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.name-form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid blueviolet;
+  padding: 5rem 1rem 5rem 1rem;
+  width: 60%;
+  border-radius: 1rem;
+}
+
+.name-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.name-input label {
+  width: 30%;
+  text-align: left;
+}
+
+.name-input input {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #888888;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px #888888;
+}
+
+form button {
+  width: 100%;
+  height: 2rem;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px #888888;
+  color: #fff;
+}
+
+.name-list-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.name-list {
+  margin-top: 3rem;
+  border: 1px solid bisque;
+  padding: 2rem;
+  width: 80%;
+}
+
+.name-list > p {
+  border-bottom: 2px dashed bisque;
+  width: 100%;
+  font-size: large;
+}
